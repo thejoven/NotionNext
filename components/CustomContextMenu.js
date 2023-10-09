@@ -136,15 +136,15 @@ export default function CustomContextMenu(props) {
                         <div className='whitespace-nowrap'>{locale.MENU.WALK_AROUND}</div>
                     </div>
 
-                    <Link href='/category' title={locale.MENU.CATEGORY} className='w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all'>
-                        <i className="fa-solid fa-square-minus mr-2" />
-                        <div className='whitespace-nowrap'>{locale.MENU.CATEGORY}</div>
-                    </Link>
+                    {/*<Link href='/category' title={locale.MENU.CATEGORY} className='w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all'>*/}
+                    {/*    <i className="fa-solid fa-square-minus mr-2" />*/}
+                    {/*    <div className='whitespace-nowrap'>{locale.MENU.CATEGORY}</div>*/}
+                    {/*</Link>*/}
 
-                    <Link href='/tag' title={locale.MENU.TAGS} className='w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all'>
-                        <i className="fa-solid fa-tag mr-2" />
-                        <div className='whitespace-nowrap'>{locale.MENU.TAGS}</div>
-                    </Link>
+                    {/*<Link href='/tag' title={locale.MENU.TAGS} className='w-full px-2 h-10 flex justify-start items-center flex-nowrap cursor-pointer hover:bg-blue-600 hover:text-white rounded-lg duration-200 transition-all'>*/}
+                    {/*    <i className="fa-solid fa-tag mr-2" />*/}
+                    {/*    <div className='whitespace-nowrap'>{locale.MENU.TAGS}</div>*/}
+                    {/*</Link>*/}
 
                 </div>
 
