@@ -76,7 +76,7 @@ const LayoutBase = (props) => {
                     <div className={'font-sans hidden md:block border-r dark:border-transparent relative z-10 '}>
                         <div className='w-72 py-14 px-6 sticky top-0 overflow-y-scroll h-screen scroll-hidden'>
                             {slotLeft}
-                            <SearchInput className='my-3 rounded-md' />
+                            {/*<SearchInput className='my-3 rounded-md' />*/}
                             <div className='mb-20'>
                                 {/* 所有文章列表 */}
                                 <NavPostList filteredNavPages={filteredNavPages} />
@@ -229,12 +229,12 @@ const LayoutSlug = (props) => {
                     {/* 分享 */}
                     <ShareBar post={post} />
                     {/* 文章分类和标签信息 */}
-                    <div className='flex justify-between'>
-                        {CONFIG.POST_DETAIL_CATEGORY && post?.category && <CategoryItem category={post.category} />}
-                        <div>
-                            {CONFIG.POST_DETAIL_TAG && post?.tagItems?.map(tag => <TagItemMini key={tag.name} tag={tag} />)}
-                        </div>
-                    </div>
+                    {/*<div className='flex justify-between'>*/}
+                    {/*    {CONFIG.POST_DETAIL_CATEGORY && post?.category && <CategoryItem category={post.category} />}*/}
+                    {/*    <div>*/}
+                    {/*        {CONFIG.POST_DETAIL_TAG && post?.tagItems?.map(tag => <TagItemMini key={tag.name} tag={tag} />)}*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
                     {post?.type === 'Post' && <ArticleAround prev={prev} next={next} />}
 
